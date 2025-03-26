@@ -12,7 +12,7 @@ To install VenusPLM, follow these steps:
 2. Navigate to the project directory: `cd VenusPLM`
 3. Install the required dependencies:
    ```bash
-   # Install PyTorch
+   # Install PyTorch (>=2.5.0)
    pip3 install torch torchvision torchaudio
    
    # Install Transformers
@@ -32,3 +32,8 @@ To use VenusPLM, follow these steps:
 
 ## Sequence Packing Attention Visualization
 ![VenusPLM](benchmark/figures/attention_visualization.png)
+
+
+## 引用
+
+
