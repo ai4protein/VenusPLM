@@ -1,0 +1,7 @@
+biopython
+pandas
+scikit-learn
+scipy
+seaborn
+tqdm
+sortedcontainers
