@@ -14,11 +14,11 @@ from transformers.modeling_outputs import (
 )
 from torch.utils.checkpoint import checkpoint
 from transformers.modeling_utils import PreTrainedModel
-import math
+import warnings
 try:
     from flash_attn import flash_attn_varlen_func, flash_attn_func
 except ImportError:
-    pass
+    warnings.warn("Flash attention is not installed.")
 
 
 A_LARGE_NEGATIVE_NUMER = -1e10
@@ -548,7 +548,7 @@ class TransformerForMaskedLM(BaseTransformerModel):
         return MaskedLMOutput(
             loss=loss,
             logits=prediction_scores,
-            hidden_states=sequence_output,
+            hidden_states=outputs.hidden_states,
             attentions=outputs.attentions,
         )
 

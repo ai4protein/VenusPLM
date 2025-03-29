@@ -195,3 +195,5 @@ AI4Protein/
 .vscode/
 *.jsonl
 benchmark/data
+.env
+upload_pypi.sh
