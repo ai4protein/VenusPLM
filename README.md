@@ -35,9 +35,6 @@ VenusPLM requires Python 3.10 or higher. You can install VenusPLM and its depend
    
    # Install flash-attn (Recommended but not required)
    pip install flash-attn --no-build-isolation
-   
-   # Install other dependencies
-   pip install -r requirements.txt
    ```
 
 2. Install VenusPLM:
