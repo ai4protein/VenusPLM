@@ -9,7 +9,7 @@ This repository introduces the VenusPLM, a protein language model that designed 
 ### Pre-training data
 
 VenusPLM is pre-trained on VenusPod, a protein sequence dataset with over 9 billion sequences. 
-The dataset is constructed by integrating multiple protein sequence databases, including UniRef100, OAS, NCBI, GOPC, MGnify, JGI and MEER, etc.
+The dataset is constructed by integrating multiple protein sequence databases, including UniRef100, OAS, NCBI, GOPC, MGnify, JGI, etc.
 
 ### Pre-training task
 
