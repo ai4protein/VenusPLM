@@ -379,3 +379,6 @@ This project is supported by [Liang's Group](https://ins.sjtu.edu.cn/people/lhon
 ## Citation
 
 Mingchen Li, Bozitao Zhong, Pan Tan, Liang Hong. VenusPLM: A Protein Language Model for Protein Representation and Design [EB/OL] (2025) <https://github.com/AI4Protein/VenusPLM>.
+
+
+This project is licensed under the terms of the [CC-BY-NC-ND-4.0](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.en) license.
